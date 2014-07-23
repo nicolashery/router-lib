@@ -1,5 +1,7 @@
 # Router Lib
 
+[![Build Status](https://travis-ci.org/nicolashery/router-lib.svg?branch=master)](https://travis-ci.org/nicolashery/router-lib)
+
 A set of client-side utility functions to Build-Your-Own-Router.
 
 (Includes a simple example router that you can use as-is, or as inspiration for your own creation.)

@@ -4,7 +4,8 @@
   "description": "Build your own client-side router with this set of utility functions",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "mocha test/*.test.js",
+    "test-watch": "mocha test/*.test.js -w"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,10 @@
     "qs": "^0.6.6"
   },
   "devDependencies": {
-    "jest-cli": "^0.1.17"
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1",
+    "proxyquire": "^1.0.1",
+    "sinon": "^1.10.3",
+    "sinon-chai": "^2.5.0"
   }
 }
