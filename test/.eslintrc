@@ -1,7 +1,13 @@
 {
+  "rules": {
+    "no-unused-expressions": 0
+  },
   "globals": {
     "describe": false,
     "it": false,
-    "expect": false
+    "expect": false,
+    "sinon": false,
+    "proxyquire": true,
+    "beforeEach": false
   }
 }

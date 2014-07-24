@@ -10,7 +10,7 @@ describe('Params', function() {
         taskId: '456'
       };
 
-        var pattern = Params.injectIntoPath(path, params);
+      var pattern = Params.injectIntoPath(path, params);
 
       expect(pattern).to.equal('/user/123/task/456');
     });
