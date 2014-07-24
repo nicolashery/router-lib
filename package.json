@@ -1,6 +1,6 @@
 {
   "name": "router-lib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Build your own client-side router with this set of utility functions",
   "main": "index.js",
   "scripts": {
