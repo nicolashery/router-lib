@@ -5,7 +5,7 @@ global.expect = chai.expect;
 global.Sinon = require('sinon');
 global.proxyquire = function (path, opts) {
   if (path.match(/^\./)) {
-    path = '../'+path;
+    path = '../' + path;
   }
   return proxyquire(path, opts);
 };

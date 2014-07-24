@@ -1,8 +1,6 @@
-var helpers = require('./lib/helpers');
 var browser = require('./lib/browser');
 var Route = require('./lib/Route');
 var Matcher = require('./lib/Matcher');
-var Params = require('./lib/Params');
 var Query = require('./lib/Query');
 
 var router = {

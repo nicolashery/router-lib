@@ -27,7 +27,7 @@ describe('helpers', function() {
   describe('map', function() {
     it('maps a function over a collection', function() {
       var squares = helpers.map(function(v) {
-        return v*v;
+        return v * v;
       }, [2, 3]);
       expect(squares).to.deep.equal([4, 9]);
     });

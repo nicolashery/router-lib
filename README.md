@@ -260,6 +260,18 @@ Run unit tests:
 $ npm test
 ```
 
+Run unit tests and watch for changes:
+
+```bash
+$ npm run test-watch
+```
+
+Run [ESLint](http://eslint.org/):
+
+```
+$ npm run eslint
+```
+
 ## License
 
 MIT
